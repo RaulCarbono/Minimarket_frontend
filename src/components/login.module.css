@@ -1,0 +1,8 @@
+.container_card {
+    display: grid;
+    background-color: aqua;
+    width: 350px;
+    height: 450px;
+    place-content: center;
+    place-items: center;
+}
