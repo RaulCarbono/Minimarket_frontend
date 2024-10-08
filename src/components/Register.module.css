@@ -1,0 +1,30 @@
+.form_container_register {
+    display: grid;
+    gap: 10px;
+    place-items: center;
+}
+
+.inputs_register {
+    width: 350px;
+    height: 40px;
+    border-radius: 12px;
+    border: none;
+}
+
+.container_button_register{
+    display: grid;
+    margin-top: 10px;
+    place-items: center;
+}
+
+.button_register {
+    width: 355px;
+    height: 40px;
+    border-radius: 12px;
+    border: none;
+}
+
+.button_register:hover {
+    background-color: rgb(176, 176, 176);
+    cursor: pointer;
+}
