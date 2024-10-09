@@ -1,12 +1,19 @@
 import { useState } from "react"
 import { counterContext } from "./CounterContext"
 
-const StateContext = () => {
+const StateContext = ({ children }) => {
 
-    const [count, setCounter] = useState(0)
+    const [register, setRegister ] = useState(false)
 
   return (
-    <div>StateContext</div>
+    <counterContext.Provider
+    value={{
+        register,
+        setRegister
+    }}
+    >
+        {children}
+    </counterContext.Provider>
   )
 }
 

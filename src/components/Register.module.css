@@ -17,6 +17,19 @@
     place-items: center;
 }
 
+.container_register_back{
+    width: 100%;
+    height: 100%;
+    .button_back {
+        width: 25%;
+        height: 70%;
+    }
+    .img_button{
+        width: 10px;
+        height: 10px;
+    }
+}
+
 .button_register {
     width: 355px;
     height: 40px;
@@ -25,6 +38,6 @@
 }
 
 .button_register:hover {
-    background-color: rgb(176, 176, 176);
+    background-color: rgb(154, 153, 152);
     cursor: pointer;
 }
