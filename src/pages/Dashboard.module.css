@@ -1,0 +1,34 @@
+.container_dashboard {
+    display: flex;
+    flex-direction: column;
+    height: 100vh; 
+    width: 100vw;
+  }
+  
+  .main {
+    display: flex;
+    flex-grow: 1;
+  }
+  
+  .sidebar {
+    width: 15%; 
+    background-color: #f8c8d8; 
+  }
+  
+  .content {
+    flex-grow: 1; 
+    background-color: #fff; 
+    padding: 20px; 
+  }
+  
+  .appbar {
+    background-color: #f8e3c8; 
+    height: 10%;
+  }
+  .content_card{
+    margin-top: 10px;
+    gap: 20px;
+    width: 250px;
+    height: 200px;
+    background-color: aqua;
+  }
