@@ -22,13 +22,22 @@
   }
   
   .appbar {
+    display: flex;
     background-color: #f8e3c8; 
     height: 10%;
   }
   .content_card{
+    display: grid;
+    place-content: center;
+    place-items: center;
     margin-top: 10px;
-    gap: 20px;
-    width: 250px;
-    height: 200px;
+    width: 260px;
+    height: 240px;
     background-color: aqua;
+    border-radius: 12px;
+  }
+
+  .img_product {
+    height: 160px;
+    width: 180px;
   }
